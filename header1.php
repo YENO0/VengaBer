@@ -35,8 +35,7 @@
                 (isset($_GET['user_id']))?
                 $userID = trim($_GET['user_id']):
                 $userID = "";
-                echo "<a href='flowers_gypsophila.php?user_id=$userID' class='admin_a'>Gypsophila</a>
-                <a href='flowers_mixedFlower.php?user_id=$userID' class='admin_a'>Mixed Flower</a>
+                echo "<a href='flowers_mixedFlower.php?user_id=$userID' class='admin_a'>Mixed Flower</a>
                 <a href='flowers_sunflower.php?user_id=$userID' class='admin_a'>Sunflower</a>
                 <a href='flowers_tulip.php?user_id=$userID' class='admin_a'>Tulip</a>
                 <a href='flowers_twistStick.php?user_id=$userID' class='admin_a'>Twist Stick</a>";
