@@ -17,7 +17,7 @@ if (isset($_POST['add_to_cart']) || isset($_POST['buy_now'])) {
     if (empty($product_size) || empty($product_quantity)) {
         $message[] = 'Please fill in all the requirements';
     } else {
-        $insert = "INSERT INTO `order` (product_size, product_quantity, id) VALUES ('$product_size', '$product_quantity', '$id')";
+        $insert = "INSERT INTO orders (product_size, product_quantity, id) VALUES ('$product_size', '$product_quantity', '$id')";
         if (mysqli_query($con, $insert)) {
             $message[] = "Order added to cart successfully";
         } else {
