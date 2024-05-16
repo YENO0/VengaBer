@@ -62,10 +62,10 @@
             <form method="post" action="">
                 <div class="products-container">
                 <?php
-define('DB_HOST', "localhost");
-define('DB_USER', "root");
-define('DB_PASS', "");
-define('DB_NAME', "assignment");
+define('DB_HOST', "yy-ver1-rds.ctqigw62kpxk.us-east-1.rds.amazonaws.com");
+define('DB_USER', "yen0809");
+define('DB_PASS', "p3TEr100");
+define('DB_NAME', "PETER");
 
 $con = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
