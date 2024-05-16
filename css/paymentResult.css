@@ -1,0 +1,44 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 Apr 2023, 3:36:46 pm
+    Author     : Cia Liang
+*/
+
+body{
+    height:1000px;
+    background-image: url("images/3.jpg");
+    background-repeat:no-repeat;
+    background-size:contain;
+    font-family:monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+table.paymentRslt{
+    position:relative;
+    top:50px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.productList{
+    list-style-type:none;
+}
+
+.homeBtn{
+    position:relative;
+    top:-8px;
+    border-radius:50px 50px 50px 50px;
+    background:gray;
+    height:30px;
+    transition:2s;
+    cursor:pointer;
+}
+
+.homeBtn:hover{
+    background:black;
+    color:gray;
+    cursor:pointer;
+}

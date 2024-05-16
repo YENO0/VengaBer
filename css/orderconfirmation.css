@@ -1,0 +1,36 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 16 May 2023, 9:06:27 pm
+    Author     : Cia Liang
+*/
+
+.CancelRefund{
+    background: red;
+    color:white;
+    border:2px solid red;
+    transition:2s;
+    cursor:pointer;
+}
+
+.CancelRefund:hover{
+    background: white;
+    color:red;
+    border: 2px solid red;
+}
+
+.RefundButton{
+    background:green;
+    color:white;
+    border: 2px solid green;
+    transition:2s;
+    cursor:pointer;
+}
+
+.RefundButton:hover{
+    background:white;
+    color:green;
+    border:2px solid green;
+}

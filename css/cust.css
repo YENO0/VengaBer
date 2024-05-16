@@ -1,0 +1,191 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17 Mar 2023, 10:18:58 pm
+    Author     : User
+*/
+
+.cstate{
+    height: 50px;
+    width:760px;
+    padding-left: 15px;
+    margin: 10px 30px 10px 30px;
+    display: inline-block;
+    border: 1px solid grey;
+    background: #f1f1f1;
+    border-radius:25px;
+}
+input[type=text],input[type=password],input[type=email] {
+    width: 50%;
+    padding: 15px;
+    margin: 1px 0 10px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    background: #f1f1f1;
+    border-radius:25px;
+}
+
+
+input[type=submit] {
+    width: 50%;
+    padding: 15px;
+    margin: 45px 0 22px 0;
+    border: none;
+    background: black;
+    color: white;
+}
+a.pri:hover{
+    color: #404040;
+    text-decoration: none;
+}
+a.pri:visited{
+    color: #404040;
+    text-decoration: none;
+}
+a.pri:active{
+    color: #404040;
+    text-decoration: none;
+}
+a.pri:link{
+    color: #404040;
+    text-decoration:underline;
+}
+select{
+    width:70px;
+    height:40px;
+}
+.headinput{
+    font-size:18px;
+    margin-left: 350px;
+
+}
+div.animationHeader span {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.animationHeader span:nth-of-type(2) {
+    animation-delay: .02s;
+}
+
+div.animationHeader span:nth-of-type(3) {
+    animation-delay: .04s;
+}
+
+div.animationHeader span:nth-of-type(4) {
+    animation-delay: .06s;
+}
+
+div.animationHeader span:nth-of-type(5) {
+    animation-delay: .08s;
+}
+
+div.animationHeader span:nth-of-type(6) {
+    animation-delay: .1s;
+}
+
+div.animationHeader span:nth-of-type(7) {
+    animation-delay: .12s;
+}
+
+div.animationHeader span:nth-of-type(8) {
+    animation-delay: .14s;
+}
+
+div.animationHeader span:nth-of-type(9) {
+    animation-delay: .16s;
+}
+
+div.animationHeader span:nth-of-type(10) {
+    animation-delay: .18s;
+}
+
+div.animationHeader span:nth-of-type(11) {
+    animation-delay: .20s;
+}
+
+div.animationHeader span:nth-of-type(12) {
+    animation-delay: .22s;
+}
+
+div.animationHeader span:nth-of-type(13) {
+    animation-delay: .24s;
+}
+div.animationHeader span:nth-of-type(14) {
+    animation-delay: .26s;
+}
+div.animationHeader span:nth-of-type(15) {
+    animation-delay: .28s;
+}
+div.animationHeader span:nth-of-type(16) {
+    animation-delay: .30s;
+}
+div.animationHeader span:nth-of-type(17) {
+    animation-delay: .32s;
+}
+div.animationHeader span:nth-of-type(18) {
+    animation-delay: .34s;
+}
+div.animationHeader span:nth-of-type(19) {
+    animation-delay: .36s;
+}
+div.animationHeader span:nth-of-type(20) {
+    animation-delay: .38s;
+}
+div.animationHeader span:nth-of-type(21) {
+    animation-delay: 0.40s;
+}
+div.animationHeader span:nth-of-type(22) {
+    animation-delay: 0.42s;
+}
+div.animationHeader span:nth-of-type(23) {
+    animation-delay: 0.44s;
+}
+div.animationHeader span:nth-of-type(24) {
+    animation-delay: 0.46s;
+}
+div.animationHeader span:nth-of-type(25) {
+    animation-delay: 0.48s;
+}
+div.animationHeader span:nth-of-type(26) {
+    animation-delay: 0.50s;
+}
+div.animationHeader span:nth-of-type(27) {
+    animation-delay: 0.52s;
+}
+div.animationHeader span:nth-of-type(28) {
+    animation-delay: 0.54s;
+}
+.animationHeader span {
+    color: black;
+    opacity: 0;
+    transform: translate(-150px, -50px) rotate(-180deg) scale(4);
+    animation: revolveScale .4s forwards;
+}
+
+@keyframes revolveScale {
+    60% {
+        transform: translate(10px, 10px) rotate(10deg) scale(.1);
+    }
+
+    100% {
+        transform: translate(0) rotate(0) scale(1);
+        opacity: 1;
+    }
+}
+hr{
+    border:1px solid darkgrey;
+}
+.msg{
+
+    color: red;
+    font-size: 20px;
+    width:100%;
+    padding-left:10px;
+    padding-right:10px;
+
+}

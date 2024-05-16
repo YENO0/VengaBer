@@ -1,0 +1,66 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('image./background_3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Form container */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Table styles */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+.thorder, .tdorder {
+    border: 1px solid #999999;
+    text-align: center;
+    padding: 10px;
+}
+
+.thorder {
+    background-color:white;
+}
+
+.tdorder {
+    background-color: white;
+}
+
+/* Refund button */
+.refundBtn {
+    border: 2px solid black;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 5px;
+}
+
+.refundBtn:hover {
+    background-color: red;
+}
+
+/* Refunded message */
+.refunded {
+    border: 1px solid black;
+    background: white;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+}

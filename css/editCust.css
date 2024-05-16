@@ -1,0 +1,248 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/*
+    Created on : 23 Mar 2023, 11:28:06 pm
+    Author     : User
+*/
+.deactbtn{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    width:250px;
+    padding:8px 25px;
+    text-align: center;
+    display:inline-block;
+    border-radius: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.msg{
+
+    color: red;
+    font-size: 20px;
+    width:100%;
+    padding-left:10px;
+    padding-right:10px;
+
+}
+
+.editbtn{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    padding:8px 25px;
+    text-align: center;
+    display:inline-block;
+    border-radius: 20px;
+    top:2000px;
+    left : 200px;
+    width:150px;
+    cursor: pointer;
+}
+
+.savebtn{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    width:298px;
+    padding:8px 25px;
+    text-align: center;
+    display:inline-block;
+    border-radius: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+body{
+    height:1400px;
+    font-family: Helvetica, Arial,  sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    font-size:18px;
+    font-weight: bold;
+
+}
+.parag{
+    font-size: 23px;
+}
+h2.h2acc{
+    position: relative;
+    right:190px;
+}
+.column1{
+    color:grey;
+    width: 50%;
+    font-size:15px;
+    padding: 15px;
+    margin: 0 15px 30px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: white;
+}
+.column2{
+    cursor: pointer;
+    width: 50%;
+    font-size:15px;
+    padding: 15px;
+    margin: 0 15px 30px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: white;
+}
+.column3{
+    width:53%;
+    padding: 15px;
+    margin: 3px 5px 30px 1px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius:10px;
+    color:black;
+    text-align: left;
+    cursor: pointer;
+}
+
+input[type=radio].eGender{
+    position:relative;
+    padding: 5px;
+    left:-65px;
+    top:3px;
+}
+input[type=radio]{
+    position:relative;
+    width:20%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    border: none;
+}
+input[type=password]{
+    width: 50%;
+    font-size:20px;
+    padding: 15px;
+    margin: 0px 15px 15px 0;
+    display: inline-block;
+    color:grey;
+    border: 1px solid grey;
+    border-radius: 10px;
+    cursor:pointer;
+}
+input[type=password]:hover{
+    width: 50%;
+    font-size:20px;
+    padding: 15px;
+    margin: 0px 15px 15px 0;
+    display: inline-block;
+    color:grey;
+    background-color: #f2f2f2;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+
+
+table.editAcc{
+    width: 900px;
+    height:550px;
+    position: absolute;
+    right:70px;
+    top:300px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.logo1{
+    display: block;
+    margin: auto;
+    width: 60%;
+
+}
+.accBtn {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 9px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    top:100px;
+
+}
+
+.accContent {
+    padding:5px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    z-index: 1;
+    border-radius:20px;
+}
+
+.accContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.accContent a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .accContent {
+    display: block;
+}
+
+
+
+div.diveditAdd{
+    padding:20px;
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 360px;
+    width: 50%;
+    height: 65%;
+    background-color: white;
+    z-index: 1;
+    border:3px solid black;
+    box-shadow: 2px 2px 10px;
+    border-radius:25px;
+
+}
+div.diveditPass{
+    padding:20px;
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 360px;
+    width: 50%;
+    height: 43%;
+    background-color: white;
+    z-index: 1;
+    border:3px solid black;
+    box-shadow: 2px 2px 10px;
+    border-radius:25px;
+}
+
+
+.customiao{
+    width: 280px;
+}
+
+.gender{
+    position:relative;
+    left:-50px;
+    bottom:-2px;
+}
+a.deactivate{
+    text-decoration: none;
+    color: white;
+}

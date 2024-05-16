@@ -1,0 +1,124 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 8 Apr 2023, 2:55:40 pm
+    Author     : heyyouthere
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.header_title{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    padding: 40px 90px;
+    box-sizing: border-box;
+    background: #ffffdd;
+    border-bottom: 1px solid #fff;
+}
+
+.imageLogo{
+    width:130px;
+    margin-bottom: -80px;
+    margin-left:-15px;
+}
+
+.header_logo{
+    text-decoration: none;
+    color: #333;
+    padding: 22px 20px;
+    height: 50px;
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left:-70px;
+}
+
+.header_logo:hover{
+    margin-left: 10px;
+    transition: all .5s ease;
+}
+
+.header_title .header_ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header_title .header_ul .header_li .header_a{
+    line-height: 44px;
+    color: #333;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    transition: all .2s;
+}
+
+.header_title .header_ul .header_li .header_a:hover{
+    border: 2px solid #333;
+    border-radius: 6px;
+}
+
+.dropbtn{
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.dropdowns .dropbtn {
+  font-size: 14px;  
+  border: 2px solid transparent;
+  outline: none;
+  color: #333;
+  padding: 12px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdowns:hover .dropbtn {
+    border: 2px solid #333;
+    border-radius: 6px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.admin_a {
+  float: none;
+  color: black;
+  font-size: 15px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.admin_a:hover {
+  background-color: #ddd;
+}
+
+.dropdowns:hover .dropdown-content {
+  display: block;
+}

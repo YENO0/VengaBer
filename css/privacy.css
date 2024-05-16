@@ -1,0 +1,40 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21 Mar 2023, 10:51:17 pm
+    Author     : User
+*/
+
+p.Pcontent{
+    font-size: 18px;
+}
+
+span.Plink{
+    font-size: 23px;
+}
+
+h3.how{
+    font-size: 21px;
+}
+
+a:hover{
+    color: #404040;
+    text-decoration: none;
+}
+a:visited{
+    color: #404040;
+    text-decoration: none;
+}
+a:active{
+    color: #404040;
+    text-decoration: none;
+}
+a:link{
+    color: #404040;
+    text-decoration:none;
+}
+ul.Pcontent{
+    font-size: 18px;
+}

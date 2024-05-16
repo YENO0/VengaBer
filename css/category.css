@@ -1,0 +1,84 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 18 Mar 2023, 1:32:22 pm
+    Author     : heyyouthere
+*/
+
+.product2{
+    border:3px solid black;
+    border-collapse: collapse;
+    margin: 20px auto;
+    transition:0.25s;
+    table-layout:fixed;
+    width:550px;
+}
+
+.product2:hover{
+    border:1px solid black;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-size:  100% 100%;
+    transform:scale(1.1545,1.14);
+    transform-origin:center;
+}
+
+.td1{
+    background-color: #ffffdd;
+    padding: 50px;
+    position:relative;
+}
+
+.td2{
+    padding: 50px;
+    position:relative;
+    padding-left: 50px;
+}
+
+.product1{
+    color:black;
+    border: 1px solid black;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+.product1:hover{
+    background-color: #cccccc;
+    
+}
+
+.btn{
+    background-color: #ff9f00;
+    border: 2px solid #ff9f00;
+    margin-right: 8px;
+    display: inline-block;
+    font-size: 16px;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 8px 8px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+.image1{
+  display: block;
+  margin: auto;
+  max-width: 400px;
+  height: auto;
+}
+
+footer{
+    margin-top: 80px;
+}

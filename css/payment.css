@@ -1,0 +1,229 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5 Apr 2023, 4:43:07 pm
+    Author     : Cia Liang
+*/
+body{
+    height:1100px;
+    background-image: url("images/3.jpg");
+    background-repeat:no-repeat;
+    background-size:contain;
+    font-family:monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+table.payment td{
+    border:none;
+}
+
+table.payment{
+    border:2px solid black;
+    height:450px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+table.payment .paymentDetails .summary{
+    box-shadow: 0 0 10px #666;
+}
+
+th.theader{
+    border:none;
+    font-size:16px;
+    position:relative;
+    top:15px;
+}
+
+img.productImg{
+    height:50px;
+    width:80px;
+    position:relative;
+    top:3px;
+    right:-10px;
+}
+
+td.product{
+    position:relative;
+    right:-10px;
+}
+
+table.summary{
+    width:650px;
+    height:300px;
+    position:relative;
+    left:10px;
+    top:-20px;
+    border:2px dotted black;
+    background:none;
+    transition:2s;
+    border-radius: 50px 50px 50px 50px;
+}
+
+table.summary:hover{
+    background:black;
+    color:gray;
+    border:2px solid gray;
+}
+
+table.paymentDetails{
+    width:650px;
+    height:300px;
+    border:2px dotted black;
+    position:relative;
+    left:10px;
+    top:0px;
+    background:none;
+    transition:2s;
+    border-radius: 50px 50px 50px 50px;
+}
+
+table.paymentDetails:hover{
+    background:black;
+    color:gray;
+    border:2px solid gray;
+}
+
+input[type=text]{
+    background:none;
+    cursor: text;
+    height:20px;
+    width:130px;
+    border-radius: 50px 50px;
+    border:2px solid gray;
+    color:gray;
+}
+
+input[type=text]:active{
+    background: none;
+    cursor: text;
+    height:20px;
+    border-radius: 50px 50px;
+    color:gray;
+    font-size:16px;
+}
+
+.paymentMethod{
+    position:relative;
+    right:-40px;
+    top:5px;
+}
+
+.cardNumber{
+    position:relative;
+    top:5px;
+    right:-40px;
+}
+
+.expDate{
+    position:relative;
+    top:-1px;
+    right:-40px; 
+}
+
+.cvv{
+    position:relative;
+    top:-5px;
+    right:-40px; 
+}
+
+input[type=text].expiryDate{
+    background:none;
+    cursor: text;
+    height:20px;
+    width:40px;
+    border-radius: 50px 50px;
+    font-size:16px;
+    border:2px solid gray;
+    color:gray;
+}
+
+input[type=password].cvvCode{
+    position:relative;
+    right:-22px;
+    background:none;
+    cursor:text;
+    height:20px;
+    width:40px;
+    border-radius: 50px 50px;
+    font-size:16px;
+    border:2px solid gray;
+    color:gray;
+}
+
+.total{
+    position:relative;
+    font-size:16px;
+    left:50px;
+}
+
+.totalAmt{
+    position:relative;
+    font-size:16px;
+    right:50px;
+}
+
+.purchaseButton{
+    position:relative;
+    top:15px;
+    color:black;
+    background-color:gray;
+    border:gray;
+    height:40px;
+    border-radius:50px 50px 50px 50px;
+    transition:2s;
+    cursor:pointer;
+}
+
+.purchaseButton:hover{
+    color:green;
+    background-color:black;
+    cursor:pointer;
+}
+
+.cancelButton{
+    position:relative;
+    right:-110px;
+    top:15px;
+    color:black;
+    background-color:gray;
+    border:gray;
+    height:40px;
+    width:80px;
+    border-radius:50px 50px 50px 50px;
+    transition:2s; 
+    cursor:pointer;
+}
+
+.cancelButton:hover{
+    color:red;
+    background-color:black;
+    cursor:pointer;
+}
+
+.error{
+    position:absolute;
+    right:320px;
+    top:170px;
+    font-size:20px;
+}
+
+::placeholder{
+    color:gray;
+}
+
+.paymentMethods{
+    cursor:pointer;
+    border:2px solid gray;
+    border-radius: 50px 50px 50px 50px;
+    color:gray;
+    background:none;
+}
+
+option{
+    text-align:center;
+    background:silver;
+    color:black;
+}

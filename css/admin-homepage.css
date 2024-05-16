@@ -1,0 +1,16 @@
+body{
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow-x: hidden;
+}
+
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin-left:1px;
+}
+
+.active {
+  background-color: #717171;
+}
+

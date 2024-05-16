@@ -1,0 +1,93 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 8 Apr 2023, 2:19:50 pm
+    Author     : heyyouthere
+*/
+
+
+footer{
+    background-color: rgb(244, 230, 214);
+    color: #333;
+    height: auto;
+    font-family: Arial;
+    margin-top: auto;
+}
+
+.footer-widget{
+    margin: 0 10px;
+}
+
+.widget-title{
+    color: #333;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.title1{
+    line-height: 20px;
+    margin: 10px 0 30px 0;
+    color:#333;
+}
+
+.categories-widget, .information-widget{
+    margin-left: 50px;
+}
+
+.choice1{
+    margin-left: 20px;
+}
+
+.selection1{
+    padding-bottom: 14px;
+    color: #333;
+}
+
+.link1{
+    color: #333;
+    text-decoration: none;
+}
+
+.link1:hover{
+    text-decoration: underline;
+}
+
+.contact-address{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333;
+    line-height: 20px;
+    color:#333;
+}
+
+.contact-number, .contact-email{
+    margin: 10px 0;
+    text-decoration: none;
+    color: #333;
+}
+
+.fa-solid fa-phone, .fa-solid fa-envelope{
+    margin-right: 10px;
+    color:#333;
+}
+
+.copyright{
+    background-color: rgb(255, 235, 219);
+    padding: 3px;
+    
+}
+
+.last1{
+    color: #333;
+    text-align: center;
+}
+
+.column{
+    margin-right: 60px;
+}
+
+.foot{
+    border: none;
+}

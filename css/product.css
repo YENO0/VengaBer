@@ -1,0 +1,259 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 18 Mar 2023, 1:32:22 pm
+    Author     : heyyouthere
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:whgt@300;400;500;700;900&display=swap');
+
+.back1{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.back1:hover{
+    text-decoration: underline;
+    margin-left: 10px;
+    transition: all .5s ease;
+}
+
+.review{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.review:hover{
+    text-decoration: underline;
+}
+
+html,body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.image1{
+    width: 100%;
+    display: block;
+}
+
+.main-wrapper{
+    min-height: 100vh;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message{
+    display: block;
+    background: var(--bg-color);
+    padding: 1.5rem 1rem;
+    font-size: 2rem;
+    color: var(--black);
+    margin-bottom: 2rem;
+    list-style-position: inside;
+    margin-left: 380px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.product-div{
+    margin: 1rem 0;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #fff;
+    border-radius: 3px;
+    column-gap: 10px;
+    width: 1200px;
+    height: 635px;
+}
+
+.product-div-left{
+    padding: 20px;
+}
+
+.product-div-right{
+    padding: 20px;
+}
+
+.image1{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.hover-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.productImage{
+    border: 2px solid rgba(252,160,175,0.7);
+    padding: 1rem;
+    border-radius: 3px;
+    margin: 0 4px 8px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active{
+    border-color: rgb(255,145,163)!important;
+}
+
+.productImage:hover{
+    border-color: rgb(255,145,163)!important;
+}
+
+.image2{
+    width: 50px;
+    cursor: pointer;
+}
+
+.product-name, .product-price{
+    display: block;
+}
+
+.product-name{
+    font-size: 26px;
+    margin-bottom: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+
+.product-price{
+    font-weight: 700;
+    font-size: 24px;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.product-rating{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.rating1{
+    margin-right: 6px;
+}
+
+.product-description{
+    font-weight: 18px;
+    line-height: 1.6;
+    font-weight: 300;
+    opacity: 0.9;
+    margin-top: 22px;
+}
+
+.btn-groups{
+    margin-top: 22px;
+}
+
+.add-cart-btn, .buy-now-btn{
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 15px 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn-groups button .fas{
+    margin-right: 8px;
+}
+
+.add-cart-btn{
+    background-color: #ff9f00;
+    border: 2px solid #ff9f00;
+    margin-right: 8px;
+}
+
+.add-cart-btn:hover{
+    background-color: #fff;
+    color: #ff9f00;
+}
+
+.buy-now-btn{
+    background-color: #000;
+    border: 2px solid #000;
+}
+
+.buy-now-btn:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+@media screen and (max-width: 992px){
+    .product-div{
+        grid-template-columns: 100%;
+    }
+    .product-div-right{
+        text-align: center;
+    }
+    .product-rating{
+        justify-content: center;
+    }
+    .product-description{
+        max-width: 400;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 400px){
+    .btn-groups button{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.size{
+    width: 80px;
+    text-align: center;
+}
+
+.quantity{
+    width: 80px;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+label{
+    position: relative;
+    width: auto;
+    height: 48.8px;
+    font-size: 13px;
+    padding: 7px 15px;
+    align-items: center;
+    border: 2px solid #D8D8D8;
+    cursor: pointer;
+}
+
+label:before{
+    width: auto;
+    height: 48.8px;
+    border: 2px solid #D8D8D8;
+    padding: 7px 15px;
+}
+
+input[type="radio"]:checked + label{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}

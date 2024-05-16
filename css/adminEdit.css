@@ -1,0 +1,186 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 Apr 2023, 1:13:00 am
+    Author     : User
+*/
+.editAcc{
+    margin-top: 40px;
+    margin-left: 600px;
+}
+.cancelbtn{
+    text-decoration: none;
+    background-color: black;
+    margin-top: 10px;
+    color:white;
+    width:100px;
+    padding:8px 25px;
+    text-align: center;
+    display:inline-block;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left:-220px;
+}
+.savebtn{
+    text-decoration: none;
+    background-color: black;
+    margin-top: 10px;
+    color:white;
+    width:100px;
+    padding:8px 25px;
+    text-align: center;
+    display:inline-block;
+    border-radius: 20px;
+
+    cursor: pointer;
+}
+.msg{
+
+    color: red;
+    font-size: 20px;
+    width:100%;
+    padding-left:10px;
+    padding-right:10px;
+
+}
+.EditAdminBtn{
+    margin-right: 30px;
+    cursor: pointer;
+}
+.output{
+    width:300px;
+    padding: 15px;
+    margin: 3px 30px 30px 30px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius:15px;
+    color:grey;
+    text-align: left;
+
+}
+input[type=password]{
+    width:300px;
+    padding: 15px;
+    margin: 3px 30px 30px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius:15px;
+    color:grey;
+    text-align: left;
+
+}
+.outputS{
+
+    width:300px;
+    padding: 15px;
+    margin: 3px 30px 30px 540px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius:15px;
+    color:grey;
+    text-align: left;
+
+}
+.display{
+    margin-left:650px;
+    font-weight: bold;
+}
+input[type=text]{
+    width:300px;
+    padding: 15px;
+    margin: 3px 5px 30px 1px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius:15px;
+    color:grey;
+    text-align: left;
+    cursor: pointer;
+}
+.column2{
+    width:300px;
+    padding: 15px;
+    margin: 3px 5px 30px 1px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius:15px;
+    color:grey;
+    text-align: left;
+    cursor: pointer;
+}
+.selection{
+    width:334px;
+    padding: 15px;
+    margin: 3px 5px 30px 1px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius:15px;
+    color:grey;
+    text-align: left;
+    cursor: pointer;
+}
+
+input[type=radio]{
+    cursor: pointer;
+}
+.EditAdminBtn{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    margin:15px;
+    padding:8px 25px;
+    text-align: center;
+    display:inline-block;
+    border-radius: 20px;
+    top:2000px;
+    left : 200px;
+    width:150px;
+    cursor: pointer;
+}
+.Edit{
+    border:1px solid black;
+    border-radius:25px;
+    background-color: black;
+    color:white;
+    width:100px;
+    height:40px;
+    cursor: pointer;
+
+    margin: 20px;
+}
+.setting{
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 100px;
+    padding-right:100px;
+
+
+
+}
+.setting:hover{
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 100px;
+    padding-right:100px;
+    text-decoration: underline;
+
+}
+h1{
+    font-size:40px;
+    padding:10px;
+    text-decoration: underline;
+}
+div.adminDetails{
+    margin-top:60px;
+}
+a.admin{
+    text-decoration: none;
+    color:black
+}

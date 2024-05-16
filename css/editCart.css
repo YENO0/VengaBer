@@ -1,0 +1,42 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 16 May 2023, 3:08:51 pm
+    Author     : Cia Liang
+*/
+
+.editBtn{
+    height:40px;
+    background:green;
+    color:white;
+    border:green 2px solid;
+    cursor:pointer;
+    transition:2s;
+}
+
+.editBtn:hover{
+    height:40px;
+    background:white;
+    color:green;
+    cursor:pointer;
+    border:green 2px solid;
+}
+
+.resetBtn{
+    height:40px;
+    background:red;
+    color:white;
+    border:red 2px solid;
+    cursor:pointer;
+    transition:2s
+}
+
+.resetBtn:hover{
+    height:40px;
+    background:white;
+    color:red;
+    cursor:pointer;
+    border:red 2px solid;
+}

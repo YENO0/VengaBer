@@ -1,0 +1,65 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 8 Apr 2023, 10:55:32 pm
+    Author     : User
+*/
+.msg{
+
+    color: red;
+    font-size: 20px;
+    width:100%;
+    padding-left:10px;
+    padding-right:10px;
+
+}
+select{
+    width:830px;
+    padding: 15px;
+    margin: 10px 30px 10px 30px;
+    display: inline-block;
+    border: 1px solid grey;
+    background: #f1f1f1;
+    border-radius:25px;
+}
+input[type=text],input[type=password]{
+    width:800px;
+    padding: 15px;
+    margin: 10px 30px 10px 30px;
+    display: inline-block;
+    border: 1px solid grey;
+    background: #f1f1f1;
+    border-radius:25px;
+}
+.adminAcc{
+    padding:20px;
+    margin:auto;
+    width:1000px;
+    border-radius:25px;
+
+
+}
+
+input[type=submit] {
+    width: 30%;
+    padding: 15px;
+    margin: 45px 0 22px 0;
+    border: none;
+    background: black;
+    color:white;
+    border-radius:25px;
+}
+.msg{
+
+    color: red;
+    font-size: 20px;
+    width:100%;
+    padding-left:10px;
+    padding-right:10px;
+
+}
+
+
+

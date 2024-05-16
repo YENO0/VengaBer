@@ -1,0 +1,19 @@
+body{
+    background-image:url(images/3.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:600px;
+}
+
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin-left:1px;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+
