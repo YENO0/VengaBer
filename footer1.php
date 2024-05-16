@@ -91,7 +91,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
                     <div class="footer-widget contact-widget">
                         <h2 class="widget-title">Contact</h2>
                         <div class="contact-address">
-                            Address : 1670, Jalan Chow Boon Khye, Berapit, 14000 Bukit Mertajam, Pulau Pinang.
+                            Address : 1, Jalan Chloe Pretty, Taman Pretty, 18888 Bukit Chloe, Pulau Pretty.
                         </div>
                         <div class="contact-number"style="color:#aba8a8;">
                             <i class="fa-solid fa-phone" style="color:#aba8a8;"></i><a href="tel:+6010-3959399" class="contact-number">Phone : +6010-3959399</a>
